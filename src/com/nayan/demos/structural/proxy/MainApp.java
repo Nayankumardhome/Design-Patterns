@@ -34,7 +34,7 @@ public class MainApp {
         /*
          * Proxy : 
          * 
-         * 		         										 (contains)
+         *                                                   (contains)
          *                  Pinterest (interface)			----------------->         PinterestDownloader
          *               		^                                                       - Pinterest api;
          *               		|												       
