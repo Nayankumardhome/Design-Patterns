@@ -40,7 +40,5 @@ public class MainApp {
          *               		|												       
          *        PinterestImplClass, PinterestProxyClass
          */
-        
 
-    }
 }
