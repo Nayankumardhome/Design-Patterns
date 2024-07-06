@@ -26,5 +26,20 @@ public class MainApp {
         long estimatedTime = System.currentTimeMillis() - startTime;
         System.out.print("Time elapsed: " + estimatedTime + "ms\n");
         return estimatedTime;
+        
+      //We are creating a fake simulation to connect Pinterest Server 
+        //using Thread.sleep() method we delay a time like in real life actually connect time to the server
+        
+        /*
+         * Proxy : 
+         * 
+         * 		         										   (contains)
+         *                  Pinterest (interface)			----------------->         PinterestDownloader
+         *               		^
+         *               		|												       - Pinterest api;
+         *   PinterestImplClass, PinterestProxyClass
+         */
+        
+
     }
 }
